@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #8f8c8c;
+    margin:20px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18, 155, 155);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-weight: 800px;
+}
+
+button:hover{
+    background-color: rgb(25, 78, 78);
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+nav li a{
+color:rgb(0, 0, 0);
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.search-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+input{
+    padding:0.2rem;
+}
+.hero-section{
+    display:flex;
+    align-items: center;
+}
+.hero-left-section h1{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.hero-left-section h1 span{
+    color: rgb(41, 223, 223);
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-left-section p span{
+    color: rgb(41, 223, 223);
+    font-size:1.5rem;
+}
+.hero-right-portion{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+
+.hero-right-portion button{
+    margin-left:60px;
+}
+
+.hero-right-portion img{
+    height: 350px;
+    width: 350px;
+    margin: 60px 0 0 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 20px;
+}
+
+footer ul{
+    display: flex;
+    gap: 50px;
+}
+footer li{
+    gap: 50px;
+    font-size: 25px;
+}
+footer a{
+    color: #373636;
+}
+footer a:hover{
+    color: black;
+}
